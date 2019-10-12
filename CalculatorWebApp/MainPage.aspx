@@ -10,14 +10,14 @@
     <form id="form1" runat="server">
         <div>
             Pierwsza liczba:<br />
-            <asp:TextBox ID="LiczbaPierwsza" runat="server"></asp:TextBox>
+            <asp:TextBox ID="LiczbaPierwsza" runat="server" BackColor="#FFFFCC"></asp:TextBox>
             <br />
             <br />
             Druga liczba<br />
-            <asp:TextBox ID="LiczbaDruga" runat="server"></asp:TextBox>
+            <asp:TextBox ID="LiczbaDruga" runat="server" BackColor="#FFFFCC"></asp:TextBox>
             <br />
             <br />
-            <asp:DropDownList ID="Dzialanie" runat="server">
+            <asp:DropDownList ID="Dzialanie" runat="server" BackColor="#CCFFCC">
                 <asp:ListItem Value="0">Dodawanie</asp:ListItem>
                 <asp:ListItem Value="1">Odejmowanie</asp:ListItem>
                 <asp:ListItem Value="2">Mnożenie</asp:ListItem>
@@ -32,7 +32,7 @@
             <br />
             <br />
             Historia operacji<br />
-            <asp:ListBox ID="Historia" runat="server" Width="151px"></asp:ListBox>
+            <asp:ListBox ID="Historia" runat="server" Width="151px" BackColor="#66FFFF"></asp:ListBox>
             <br />
             <br />
             <asp:Button ID="Odwtorz" runat="server" Text="Odtwórz" />
